@@ -1,0 +1,6 @@
+function isTriangle(a,b,c)
+{
+let maxNumber = Math.max(a , b , c );
+let sum = a + b + c;
+return sum - maxNumber > maxNumber;
+}
