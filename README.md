@@ -1,2 +1,2 @@
-# CodeWars-7-kuy
+# CodeWars-7-kyu
 Try my best
