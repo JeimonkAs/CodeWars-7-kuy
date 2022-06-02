@@ -1,0 +1,4 @@
+function accum(s) {
+	return s.split('')
+          .map((a, e) => (a.toUpperCase() + a.toLowerCase().repeat(e))).join('-')
+}
