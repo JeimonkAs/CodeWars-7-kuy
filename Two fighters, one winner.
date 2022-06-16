@@ -1,0 +1,7 @@
+function declareWinner(fighter1, fighter2, firstAttacker) {
+  let wtf = Math.ceil(fighter1.health / fighter2.damagePerAttack);
+  let lol = Math.ceil(fighter2.health / fighter1.damagePerAttack);
+  return wtf < lol ? fighter2.name : lol < wtf ? fighter1.name : firstAttacker
+}
+
+
