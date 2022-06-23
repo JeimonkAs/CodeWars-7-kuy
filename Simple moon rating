@@ -1,0 +1,18 @@
+function moonRating(rating) {
+ 
+  let moon = Math.round(rating);
+  
+  switch(moon){
+    case 0:return "xxxxx";
+    case 1:return "cxxxx";
+    case 2:return "oxxxx";
+    case 3:return "ocxxx";
+    case 4:return "ooxxx";
+    case 5:return "oocxx";
+    case 6:return "oooxx";
+    case 7:return "ooocx";
+    case 8:return "oooox";
+    case 9:return "ooooc";
+   case 10:return "ooooo";
+      }
+}
